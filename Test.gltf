@@ -14266,8 +14266,9 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0,
         "roughnessFactor": 0.200000003,
-        "baseColorFactor": [0.784313738, 0.784313738, 0.784313738, 0.100000024]
-      }
+        "baseColorFactor": [0.784313738, 0.784313738, 0.784313738, 0.1]
+      },
+      "alphaMode": "BLEND"
     },
     {
       "name": "Fabric Grey Light",
@@ -14401,7 +14402,7 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0,
         "roughnessFactor": 0.800000012,
-        "baseColorFactor": [0.196078435, 0.196078435, 0.196078435, 1]
+        "baseColorFactor": [0.01, 0.01, 0.01, 1]
       }
     },
     {
@@ -14428,7 +14429,7 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0,
         "roughnessFactor": 0.800000012,
-        "baseColorFactor": [0.196078435, 0.196078435, 0.196078435, 1]
+        "baseColorFactor": [0.01, 0.01, 0.01, 1]
       }
     },
     {
@@ -14436,15 +14437,15 @@
       "doubleSided": true,
       "pbrMetallicRoughness": {
         "roughnessFactor": 0.800000012,
-        "baseColorFactor": [0.196078435, 0.196078435, 0.196078435, 1]
+        "baseColorFactor": [0.01, 0.01, 0.01, 1]
       }
     },
     {
       "name": "Black, Metallic",
       "doubleSided": true,
       "pbrMetallicRoughness": {
-        "roughnessFactor": 0.5,
-        "baseColorFactor": [0.196078435, 0.196078435, 0.196078435, 1]
+        "roughnessFactor": 0.8,
+        "baseColorFactor": [0.01, 0.01, 0.01, 1]
       }
     },
     {
@@ -14453,7 +14454,7 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0,
         "roughnessFactor": 0.800000012,
-        "baseColorFactor": [0.196078435, 0.196078435, 0.196078435, 1]
+        "baseColorFactor": [0.01, 0.01, 0.01, 1]
       }
     },
     {
@@ -14484,7 +14485,7 @@
       "pbrMetallicRoughness": {
         "metallicFactor": 0,
         "roughnessFactor": 0.800000012,
-        "baseColorFactor": [0.196078435, 0.196078435, 0.196078435, 1]
+        "baseColorFactor": [0.01, 0.01, 0.01, 1]
       }
     },
     {
