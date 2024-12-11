@@ -1,0 +1,229 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5125,
+      "type": "SCALAR",
+      "count": 2496
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 1718,
+      "min": [-1, -0.1435, -0.143500164],
+      "max": [0.999999881, 0.1435, 0.1435]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 1718
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 1718
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 7560,
+      "min": [-0.183913007, -0.56132102, -0.131209999],
+      "max": [0.182248995, 0.0134231001, 0.125634]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 7560
+    }
+  ],
+  "asset": {
+    "generator": "Capture 2024.0.39",
+    "version": "2.0",
+    "extensions": {
+      "CAPTURE_model": {
+        "identifier": "9952b736-96aa-4979-a7d2-a792bbb1aa94",
+        "layers": [
+          {
+            "identifier": "e1438692-fe9d-4119-b9fd-92b6ea9d93a0",
+            "name": "Calque par défaut"
+          }
+        ]
+      }
+    }
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 58594
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21542,
+      "byteOffset": 58596
+    },
+    {
+      "buffer": 0,
+      "byteLength": 9984,
+      "byteOffset": 80140
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20616,
+      "byteOffset": 90124,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20616,
+      "byteOffset": 110740,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13744,
+      "byteOffset": 131356,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 90720,
+      "byteOffset": 145100,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 90720,
+      "byteOffset": 235820,
+      "byteStride": 12
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "Totem-2m-Pointe.bin",
+      "byteLength": 326540
+    }
+  ],
+  "images": [
+    {
+      "bufferView": 0,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "bufferView": 1,
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "indices": 0,
+          "material": 0,
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          }
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "material": 1,
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0,
+          "extensions": {
+            "KHR_texture_transform": {
+            }
+          }
+        },
+        "roughnessFactor": 0.800000012
+      },
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.5,
+        "extensions": {
+          "KHR_texture_transform": {
+          }
+        }
+      }
+    },
+    {
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.300000012,
+        "baseColorFactor": [0.188235313, 0.188235313, 0.188235313, 1]
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "matrix": [-2.23517418e-08, -1.00000012, 0, 0, 1.00000012, -2.23517418e-08, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1],
+      "extensions": {
+        "CAPTURE_model": {
+          "identifier": "21e4e453-b4d3-43b3-91bb-c6181a41e91b",
+          "layer_identifier": "e1438692-fe9d-4119-b9fd-92b6ea9d93a0",
+          "truss": {
+            "manufacturer": "Prolyte",
+            "name": "H30V Section rectangulaire, 2m (H30V-L200)",
+            "atlabase_identifier": "b9ddedd7-6538-4ed6-a511-179f41eda91b"
+          }
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "matrix": [-0.999999881, 1.1920929e-07, 0, 0, -1.1920929e-07, -0.999999881, 0, 0, 0, 0, 1, 0, 0, 2.003232, 0, 1],
+      "extensions": {
+        "CAPTURE_model": {
+          "identifier": "7536336f-213f-47d6-bf2b-6b0e7f63e448",
+          "layer_identifier": "e1438692-fe9d-4119-b9fd-92b6ea9d93a0",
+          "fixture": {
+            "manufacturer": "Robe",
+            "name": "Robin Pointe",
+            "atlabase_identifier": "d28ed3a5-b237-4694-aee6-cc45b74b1b67"
+          }
+        }
+      }
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [ 0, 1 ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_texture_transform",
+    "CAPTURE_model"
+  ]
+}
